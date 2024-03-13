@@ -1,0 +1,52 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Centra el contenido */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Estilos del contenido */
+.content {
+    text-align: center;
+}
+
+/* Título de la página */
+.title {
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+
+/* Contenedor de enlaces */
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Hover efecto en enlaces */
+.links > a:hover {
+    color: #505C6B;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .title {
+        font-size: 2em;
+    }
+    .links > a {
+        font-size: 1rem;
+    }
+}
